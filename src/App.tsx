@@ -156,7 +156,7 @@ export function App() {
                   autoPlay
                   playsInline
                   loop
-                  muted={isMuted}
+                  muted
                   className="w-full h-full object-cover"
                   onPlay={() => setIsPlaying(true)}
                   onPause={() => setIsPlaying(false)}
